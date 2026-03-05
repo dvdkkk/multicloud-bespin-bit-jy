@@ -814,7 +814,7 @@ export default function App() {
                       <option value="" disabled>선택해주세요</option>
                       <option value="취업준비">취업준비</option>
                       <option value="직무전환">직무전환 (커리어 체인지)</option>
-                      <option value="역량강화">현재 직무 역량 강화</option>
+                      <option value="역량강화">현재 직무 역량강화</option>
                       <option value="기타">기타</option>
                     </select>
                   </div>
