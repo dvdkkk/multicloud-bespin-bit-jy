@@ -2,6 +2,18 @@
 
 @theme {
   --font-sans: "Pretendard", -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif;
+  --animate-bounce-subtle: bounce-subtle 2s infinite ease-in-out;
+  --animate-pulse-subtle: pulse-subtle 2s infinite ease-in-out;
+
+  @keyframes bounce-subtle {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+  }
+
+  @keyframes pulse-subtle {
+    0%, 100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(37, 99, 235, 0.4); }
+    50% { transform: scale(1.05); box-shadow: 0 0 20px 10px rgba(37, 99, 235, 0); }
+  }
 }
 
 html, body {
